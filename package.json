@@ -1,13 +1,14 @@
 {
-  "name": "my-proxy",
+  "name": "nav-proxy",
   "version": "1.0.0",
-  "description": "Simple backend proxy",
+  "description": "Navigation-enabled backend proxy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.2",
-    "http-proxy-middleware": "^2.0.6"
+    "node-fetch": "^2.6.7"
   }
 }
